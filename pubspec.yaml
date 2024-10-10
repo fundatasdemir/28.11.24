@@ -1,0 +1,39 @@
+name: pz26082024
+description: "pz26"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^0.13.6  # Güncellenmiş sürüm
+  html: ^0.15.0
+  win32: ^3.1.4  # Güncellenmiş sürüm
+  flutter_localizations:
+    sdk: flutter
+  url_launcher: ^6.1.7  # Güncellenmiş sürüm
+  flutter_email_sender: ^6.0.0
+  flutter_html: ^2.2.1
+  flutter_layout_grid: ^1.0.6  # Güncellenmiş sürüm
+  flutter_math_fork: ^0.5.0  # Güncellenmiş sürüm
+  flutter_pdfview: ^1.3.2  # Güncellenmiş sürüm
+  firebase_core: ^2.11.0  # Güncellenmiş Firebase Core sürümü
+  firebase_auth: ^4.4.2  # Güncellenmiş Firebase Authentication sürümü
+  cloud_firestore: ^5.4.3  # Güncellenmiş Firestore sürümü
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0  # Güncellenmiş lints sürümü
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/arka_plan.png
+    - assets/kutso.1.png

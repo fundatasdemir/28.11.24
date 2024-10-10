@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "932385263341",
+    "project_id": "kutso-b90c7",
+    "storage_bucket": "kutso-b90c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932385263341:android:d973e0c6fda229b2d786e4",
+        "android_client_info": {
+          "package_name": "com.kutso.pz26082024"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8wdFsLy6v0ekIWIjPCIS9Q-BtRgGDI98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
