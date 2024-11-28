@@ -41,46 +41,46 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyB8DZCZgXH3W1DRjLDuyfSLhKtjYroYW6w',
-    appId: '1:932385263341:web:79d74446fc8a3c08d786e4',
-    messagingSenderId: '932385263341',
-    projectId: 'kutso-b90c7',
-    authDomain: 'kutso-b90c7.firebaseapp.com',
-    storageBucket: 'kutso-b90c7.appspot.com',
+    apiKey: 'AIzaSyC2L05gMw8iEb_-o2J-SUXkYerb6BCZaI4',
+    appId: '1:1025092034044:web:4fef47907cba5b026ae679',
+    messagingSenderId: '1025092034044',
+    projectId: 'oda123-6ae53',
+    authDomain: 'oda123-6ae53.firebaseapp.com',
+    storageBucket: 'oda123-6ae53.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyC8wdFsLy6v0ekIWIjPCIS9Q-BtRgGDI98',
-    appId: '1:932385263341:android:d973e0c6fda229b2d786e4',
-    messagingSenderId: '932385263341',
-    projectId: 'kutso-b90c7',
-    storageBucket: 'kutso-b90c7.appspot.com',
+    apiKey: 'AIzaSyA3UT-QDRwrKl5zUg2O11Wf5S4T6xEFZT8',
+    appId: '1:1025092034044:android:962133c26316fa046ae679',
+    messagingSenderId: '1025092034044',
+    projectId: 'oda123-6ae53',
+    storageBucket: 'oda123-6ae53.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBwD9xwd1oDmPAN8ZpTOJR6dqVLdaCVDYQ',
-    appId: '1:932385263341:ios:66f87ccfa98652e1d786e4',
-    messagingSenderId: '932385263341',
-    projectId: 'kutso-b90c7',
-    storageBucket: 'kutso-b90c7.appspot.com',
+    apiKey: 'AIzaSyBBx3TjDWZOOad3SI13F3toEAFxx-E-WrU',
+    appId: '1:1025092034044:ios:c69f64620a7501106ae679',
+    messagingSenderId: '1025092034044',
+    projectId: 'oda123-6ae53',
+    storageBucket: 'oda123-6ae53.appspot.com',
     iosBundleId: 'com.example.pz26',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBwD9xwd1oDmPAN8ZpTOJR6dqVLdaCVDYQ',
-    appId: '1:932385263341:ios:66f87ccfa98652e1d786e4',
-    messagingSenderId: '932385263341',
-    projectId: 'kutso-b90c7',
-    storageBucket: 'kutso-b90c7.appspot.com',
+    apiKey: 'AIzaSyBBx3TjDWZOOad3SI13F3toEAFxx-E-WrU',
+    appId: '1:1025092034044:ios:c69f64620a7501106ae679',
+    messagingSenderId: '1025092034044',
+    projectId: 'oda123-6ae53',
+    storageBucket: 'oda123-6ae53.appspot.com',
     iosBundleId: 'com.example.pz26',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyB8DZCZgXH3W1DRjLDuyfSLhKtjYroYW6w',
-    appId: '1:932385263341:web:a5725cb76c29cbc3d786e4',
-    messagingSenderId: '932385263341',
-    projectId: 'kutso-b90c7',
-    authDomain: 'kutso-b90c7.firebaseapp.com',
-    storageBucket: 'kutso-b90c7.appspot.com',
+    apiKey: 'AIzaSyC2L05gMw8iEb_-o2J-SUXkYerb6BCZaI4',
+    appId: '1:1025092034044:web:263c28af42f7ea926ae679',
+    messagingSenderId: '1025092034044',
+    projectId: 'oda123-6ae53',
+    authDomain: 'oda123-6ae53.firebaseapp.com',
+    storageBucket: 'oda123-6ae53.appspot.com',
   );
 }

@@ -2,14 +2,12 @@ import 'package:pz26082024/birlestirme.dart';
 import 'package:pz26082024/bolunme.dart';
 import 'package:pz26082024/projelerimiz.dart';
 import 'package:pz26082024/iletisim.dart';
-import 'package:pz26082024/Temasecimi.dart';
 import 'meclis_uyeleri.dart';
 import 'oda_hizmetleri.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'giris.dart';
 import 'online_islemler.dart';
-import 'admin_sayfasi.dart';
+import 'pages/login_register_page.dart';
 
 class AnaEkran extends StatelessWidget {
   final Function(ThemeMode) onThemeChanged;
@@ -92,7 +90,8 @@ class AnaEkran extends StatelessWidget {
                     onTap: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => Login()),
+                        MaterialPageRoute(
+                            builder: (context) => LoginRegisterPage()),
                       );
                     },
                   ),
@@ -151,7 +150,8 @@ class AnaEkran extends StatelessWidget {
               crossAxisSpacing: 16.0,
               mainAxisSpacing: 16.0,
               children: <Widget>[
-                buildMenuItem(context, 'Giriş yap', Icons.login, Login()),
+                buildMenuItem(
+                    context, 'Giriş yap', Icons.login, LoginRegisterPage()),
                 buildMenuItem(context, 'Online İşlemler',
                     Icons.online_prediction, const OnlineIslemlerEkrani()),
                 buildMenuItem(context, 'Oda Hizmetleri', Icons.business_center,

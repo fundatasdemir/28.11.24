@@ -22,9 +22,9 @@ dependencies:
   flutter_layout_grid: ^1.0.6  # Güncellenmiş sürüm
   flutter_math_fork: ^0.5.0  # Güncellenmiş sürüm
   flutter_pdfview: ^1.3.2  # Güncellenmiş sürüm
-  firebase_core: ^2.11.0  # Güncellenmiş Firebase Core sürümü
-  firebase_auth: ^4.4.2  # Güncellenmiş Firebase Authentication sürümü
-  cloud_firestore: ^5.4.3  # Güncellenmiş Firestore sürümü
+  firebase_core: ^3.6.0  # Güncellenmiş Firebase Core sürümü
+  firebase_auth: ^5.3.1  # Güncellenmiş Firebase Authentication sürümü
+  cloud_firestore: ^5.4.4  # Güncellenmiş Firestore sürümü
 
 dev_dependencies:
   flutter_test:
